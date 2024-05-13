@@ -55,7 +55,7 @@ function div() {
     console.log(total)
     result.textContent = "The result is: " + total
 
-}
+}   
 
 
 function cleardispaly(){
