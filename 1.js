@@ -56,3 +56,10 @@ function div() {
     result.textContent = "The result is: " + total
 
 }
+
+
+function cleardispaly(){
+    document.getElementById('num1').value = ''
+    document.getElementById('num2').value = ''
+    var result = document.getElementById('res').textContent = ''
+}

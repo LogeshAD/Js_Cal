@@ -4,42 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Js </title>
+    <style>
+        body{
+            background-color: rgb(192, 227, 186);
+        }
+        
+        #num1{
+            margin-top: 40px;
+            margin: 20px;
+            /* margin-top: 15%; */
+        }
+        #num2{
+            margin: 20px;
+           
+        }
+        #F{
+            background-color: rgb(181, 151, 143);
+            height: 40%;
+            width: 30%;
+            border-style: groove;
+            
+        }
+        
+    </style>
 </head>
-<style>
-    
-    #num1{
-        margin: 20px;
-        /* margin-top: 15%; */
-    }
-    #num2{
-        margin: 20px;
-       
-    }
-</style>
 <body>
     <center>
-
-        <h1> Simple Calcualtor using Java Script</h1>
-
-        <img src="Github.png" alt="">
+        <h1> Simple Calculator using JavaScript</h1>
         <br>
-    <label for="">Number1</label>
-    <input type="number" name="" id="num1">
-    <br>
-    <label for="">Number2</label>
-    <input type="number" name="" id="num2">
-    <br>
+        <form id="F">
+            <br>
+            <br>
 
-    <button onclick="add()">ADD</button>
-    <button onclick="sub()">SUB</button>
-    <button onclick="div()">DIV</button>
-    <button onclick="mul()">mul</button>
     
+            <img src="Github.png" alt="">
+            <br>
+            <label for="">Number1</label>
+            <input type="number" name="" id="num1">
+            <br>
+            <label for="">Number2</label>
+            <input type="number" name="" id="num2">
+            <br>
+
+            <button type="button" onclick="add()">ADD</button>
+            <button type="button" onclick="sub()">SUB</button>
+            <button type="button" onclick="div()">DIV</button>
+            <button type="button" onclick="mul()">MUL</button>
+
+            <button type="button" onclick="cleardispaly()">Clear</button>
+            
 
 
-    <p id="res">The result is : </p>
+            <p id="res">The result is : </p>
+            <br>
+        </form>
 
-<script src="1.js"></script>
-</center>
+        <script src="1.js"></script>
+    </center>
 </body>
 </html>
